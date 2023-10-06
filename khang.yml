@@ -128,7 +128,7 @@ function Update:Window(text,logo,keybind)
 	local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
 	
 	local PADOXHUB = Instance.new("ScreenGui")
-	PADOXHUB.Name = "Truc Hub by Truc Roblox"
+	PADOXHUB.Name = "TrucHub by Truc Roblox"
 	PADOXHUB.Parent = game.CoreGui
 	PADOXHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
